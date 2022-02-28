@@ -1,0 +1,34 @@
+div.nav {
+  margin: auto;
+  height: 43px;
+  width: 100vw;
+  padding: auto;
+  top: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.356);
+  z-index: 1999;
+}
+
+div.nav .navvdiv, div.nav .navvdiv > .nav-item {
+  display: none;
+  width: auto;
+}
+
+div.nav MenuToggle {
+  margin: auto;
+}
+
+div.nav .nav-item {
+  color: white;
+  margin: auto 0;
+  width: auto;
+  height: auto;
+  font-family: 'Bebas Neue', serif;
+  font-size: 1.1em;
+}
+
+div.nav a.navbar-brand {
+  margin: auto;
+  padding-top: 0;
+}
+/*# sourceMappingURL=Navv.css.map */

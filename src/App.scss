@@ -1,0 +1,40 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+@media screen and (max-width: 600px) and (min-height: 100px)
+{
+
+    *, *::before, *::after 
+    {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+      box-sizing: inherit;
+      padding: auto; 
+      margin: auto;
+    }
+
+    html 
+    {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background: black;
+    }
+
+    .App 
+    {
+      text-align: center;
+      margin: auto;
+      max-width: 100vw;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background-color: black; 
+      overflow-x: hidden;
+    }
+    
+}
+
+

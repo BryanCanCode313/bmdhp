@@ -1,0 +1,76 @@
+@media screen and (max-width: 600px) 
+   {
+
+            .sect
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0px;
+                height: auto;
+                max-height: 100%;
+                max-width: 100%;
+                background: black;
+                
+            }
+
+            .parahdr
+            {
+                display: flex;
+                flex-direction: row;
+                margin: 0px;
+                width: 100%;
+            }
+
+
+            .bmdhdr
+            {
+                margin: auto;
+                display: flex;
+                flex-direction: row; 
+                font-size: 2.5em;    
+            }
+
+
+            .pbloc
+            {
+                margin: auto;
+                display: flex;
+                flex-direction: row;
+                height: auto;
+                width: auto; 
+               
+            }
+
+            .para1
+            {
+                margin: 0 1rem;
+                color: rgb(255, 255, 255);
+                text-align: center; 
+                font-family: Georgia, serif;
+                font-size: 90%;
+                width: 100%;
+                padding: 1.5em;
+                word-break: break-all
+            }
+
+            .emptyblock
+            {
+                margin: 0px;
+                width: 50%;
+                height: auto;
+            }
+            
+    }
+  
+
+
+    @media screen and (min-width: 100px) and (max-width: 806px)
+
+    {
+        .emptyblock
+            {
+                display: none;     
+            }
+    }      
+    

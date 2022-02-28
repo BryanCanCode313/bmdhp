@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) and (min-height: 100px) {
+  *, *::before, *::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    padding: auto;
+    margin: auto;
+  }
+  html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: black;
+  }
+  .App {
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: black;
+  }
+}
+/*# sourceMappingURL=App.css.map */

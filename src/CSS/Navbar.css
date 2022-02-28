@@ -1,0 +1,11 @@
+.navcon {
+  width: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  z-index: 1000;
+  padding: .5em .2em;
+}
+/*# sourceMappingURL=Navbar.css.map */
