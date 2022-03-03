@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { HamburgerMenu } from "../Components/hamburgerMenu.js";
-import "../CSS/Navbar.scss"
+import "../CSS/Navbar.scss";
 import  Nav  from 'react-bootstrap';
 
 
