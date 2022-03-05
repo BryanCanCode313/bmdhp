@@ -28,7 +28,7 @@ const NavLink = styled(motion.li)`
   display: flex;
   align-items: center;
   cursor: pointer; 
-  //border: solid green 3px;
+  border: solid green 3px;
    
 
   a {
